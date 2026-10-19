@@ -1,0 +1,92 @@
+{
+ "ts": "2026-10-19T11:10+08:00",
+ "session": "midday",
+ "engine": "orchestrator v1 (中枢引擎, px_view 干净数据) + 今日盘中实时验证",
+ "market": {
+  "phase": "neutral",
+  "strength": -0.0167,
+  "max_position": 0.6,
+  "indices": {
+   "上证": "+0.40%",
+   "深成": "+0.37%",
+   "创业板": "-0.27%"
+  },
+  "note": "沪强深弱, 银行/高股息防御强, 中小票弱 — phase neutral 仓位上限 60%"
+ },
+ "midday_pick": {
+  "sym": "sz001965",
+  "name": "招商公路",
+  "why": "中枢引擎 top1 (defensive:10 + offensive:2, 双引擎一致 high 置信); 高股息公路龙头, 与今日防御轮动方向一致; 现价 10.34 (-0.10%), 缩量横盘无追高风险",
+  "reference_zone": [
+   10.25,
+   10.4
+  ],
+  "today_live": {
+   "price": 10.34,
+   "chg": "-0.10%",
+   "量比": 1.0
+  }
+ },
+ "backup": [
+  {
+   "sym": "sh600016",
+   "name": "民生银行",
+   "why": "今日盘中最强 (民生 +1.14%), 中枢 score 0.472 high",
+   "today_live": "+1.14% 量比0.91"
+  },
+  {
+   "sym": "sz000001",
+   "name": "平安银行",
+   "why": "放量上攻 (量比1.93 +0.87%), 中枢 high",
+   "today_live": "+0.87%"
+  }
+ ],
+ "orchestrator_top5": [
+  {
+   "sym": "sz001965",
+   "score": 0.497,
+   "engines": [
+    "defensive:10",
+    "offensive:2"
+   ],
+   "confidence": "high"
+  },
+  {
+   "sym": "sz200581",
+   "score": 0.491,
+   "engines": [
+    "defensive:8",
+    "offensive:4"
+   ],
+   "confidence": "high"
+  },
+  {
+   "sym": "sh600016",
+   "score": 0.472,
+   "engines": [
+    "defensive:2",
+    "offensive:10"
+   ],
+   "confidence": "high"
+  },
+  {
+   "sym": "sz000001",
+   "score": 0.442,
+   "engines": [
+    "defensive:7",
+    "offensive:7"
+   ],
+   "confidence": "high"
+  },
+  {
+   "sym": "sh601018",
+   "score": 0.434,
+   "engines": [
+    "defensive:12",
+    "offensive:3"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "honest_note": "只报告引擎输出与盘中事实, 不预测午后涨跌; phase=neutral 时单票仓位建议不超过总仓 1/3"
+}
