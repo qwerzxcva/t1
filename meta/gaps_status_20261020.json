@@ -1,0 +1,23 @@
+{
+ "ts": "2026-10-20T08:10+08:00",
+ "title": "四缺口补全进度 (接 2026-10-19 roadmap)",
+ "gaps": {
+  "1_资金流": {
+   "status": "已补",
+   "detail": "mf_factors 表 435 票×5 因子 (20日净流入/主力占比/5日动量等), 来源 holo 库, 已用于当日推荐验证"
+  },
+  "2_波动率结构": {
+   "status": "已补",
+   "detail": "vol_sent_factors 表 3039 票×5 因子: 上行/下行半变差比 rv_ratio_20 (Barndorff-Nielsen-Shephard 2004)、60日峰度、涨停频数、振幅温度 — 主库日线零新数据成本; 原有 ret_skew_20d/wq_ret_kurt_20 之外加深"
+  },
+  "3_情绪筹码": {
+   "status": "部分补",
+   "detail": "已有 zt_count_20d/60d + 新增 zt_recent_10/振幅温度; 连板高度/封单强度需涨停池明细数据 (em_ztpool), 待数据管道提供后补"
+  },
+  "4_PIT基本面": {
+   "status": "第一版",
+   "detail": "fin_factors 表 (另一 AI fin_screen 管道产出, 5 维财务 zscore, 报告期 2026-06-30); 限制: 仅 top15 明细可得, 全量 220 票在对方管道内; db-stocks-a 分片 463MB+ API 拉不动, 需 git clone 方式"
+  }
+ },
+ "validation": "6 推荐票交叉验证: 上行波动比 1.07-2.12 (全部>1=上涨日波动更大, 健康形态), 振幅 1.2%-5.7% (蓝筹<3% 防守达标), 零涨停 (无爆炒风险)"
+}
