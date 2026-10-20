@@ -1,0 +1,32 @@
+{
+ "date": "2026-10-21",
+ "source": "gitcode stock-pead-engine engines/ (gbdt+nb) 吸收",
+ "data": {
+  "samples": 352906,
+  "stocks": 749,
+  "features": 13,
+  "label": "fwd21d direction",
+  "split": "IS70/OOS30 按时间"
+ },
+ "results_oos": {
+  "GBDT": {
+   "Q1_win": 0.567,
+   "Q3_win": 0.524,
+   "Q5_win": 0.424,
+   "top_bottom_spread": 0.143,
+   "verdict": "单调有效, 高分组做多"
+  },
+  "NB": {
+   "Q1_win": 0.454,
+   "Q5_win": 0.548,
+   "spread": 0.094,
+   "verdict": "方向反转 (高斯假设), 反向使用: 低分做多 Q5 54.8%"
+  }
+ },
+ "ensemble": "GBDT 多头(Q1) + NB 反向(Q5低分) 可构成双引擎共识",
+ "next": [
+  "全市场分片跑完",
+  "与 orchestrator/117因子 融合为第5/6票",
+  "分年审计"
+ ]
+}
