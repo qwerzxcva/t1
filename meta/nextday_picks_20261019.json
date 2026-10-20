@@ -1,0 +1,61 @@
+{
+ "ts": "2026-10-19T21:50+08:00",
+ "session": "nextday_picks",
+ "t0": "2026-10-19",
+ "market": {
+  "phase": "bear",
+  "strength": -0.0541,
+  "max_position": 0.4,
+  "note": "今日收盘后 phase 从 neutral 转 bear (60日中位动量 -5.4%) — 防守为主, 仓位上限 40%"
+ },
+ "engines_used": [
+  "orchestrator v1 (三选股池 phase 加权融合)",
+  "factor_matrix 117因子截面融合 (动量/低波/防爆/流动性 4角度)",
+  "v7 回本口径校验 (近3年 22/60日回本率)"
+ ],
+ "next_day_picks": [
+  {
+   "sym": "sh601088",
+   "name": "中国神华",
+   "close": 51.3,
+   "why": "三引擎最强一致: 117因子融合第7 + 防守属性 + 回本率 97%/100% 全场最高, 近3年平均22日 +2.68%",
+   "conviction": "high"
+  },
+  {
+   "sym": "sh601328",
+   "name": "交通银行",
+   "close": 8.23,
+   "why": "117因子融合第1 + 银行防御 + 回本率 89%/92%",
+   "conviction": "high"
+  },
+  {
+   "sym": "sh600900",
+   "name": "长江电力",
+   "close": 29.69,
+   "why": "117因子第3 + 今日逆势 +0.51% + 公用事业防御 + 回本 78%/92%",
+   "conviction": "high"
+  },
+  {
+   "sym": "sh600887",
+   "name": "伊利股份",
+   "close": 28.07,
+   "why": "117因子第4 + 今日 +1.12% 消费防御 + 回本 89%/97%",
+   "conviction": "high"
+  },
+  {
+   "sym": "sh601222",
+   "name": "林洋能源",
+   "close": 5.97,
+   "why": "orchestrator 双引擎一致 high (defensive:12+offensive:8) + 回本 94%/92%",
+   "conviction": "medium"
+  },
+  {
+   "sym": "sh603818",
+   "name": "曲美家居",
+   "close": 4.69,
+   "why": "orchestrator 双引擎一致 high (rotation:3+offensive:1) + 回本 92%/92% — 弹性补充, 仓位减半",
+   "conviction": "medium"
+  }
+ ],
+ "honest_note": "phase=bear 时优先防守蓝筹, 6 票合计仓位建议 ≤40%; 数据截至 10-15 截面+今日收盘, 不预测涨跌方向, 只报告引擎一致输出"
+}
