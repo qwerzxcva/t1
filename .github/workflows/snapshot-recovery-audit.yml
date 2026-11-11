@@ -1,0 +1,33 @@
+name: snapshot-recovery-audit
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: snapshot-recovery-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Verify isolated recovery tests
+        run: python3 -m unittest discover -s tests -p test_restore_encoded_snapshot.py -v
+      - name: Inspect snapshot without changing source data
+        run: |
+          python3 tools/restore_encoded_snapshot.py --root "$GITHUB_WORKSPACE/data" --plan "$RUNNER_TEMP/recovery-plan.json"
+      - name: Upload exact recovery plan
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: snapshot-recovery-plan
+          path: ${{ runner.temp }}/recovery-plan.json
+          if-no-files-found: error
+          retention-days: 7
