@@ -1,1 +1,104 @@
-ewogICJ0cyI6ICIyMDI2LTEwLTMxVDEzOjA5OjIxKzA4OjAwIiwKICAiZW5naW5lIjogIm1pbnV0ZV9kYXRhX3ZhbGlkYXRlIiwKICAic291cmNlX2ZpbGVzIjogWwogICAgIi90bXAvdGlueTUucGFycXVldCIKICBdLAogICJtaXNzaW5nX3RhcmdldHMiOiBbXSwKICAidGhyZXNob2xkcyI6IHsKICAgICJtaW5fYmFyc19jb21wbGV0ZSI6IDIwMCwKICAgICJleHBlY3RlZF9iYXJzX2Z1bGwiOiAyMzYsCiAgICAic2Vzc2lvbiI6IFsKICAgICAgIjA5OjMxIiwKICAgICAgIjE1OjAwIgogICAgXSwKICAgICJhbW91bnRfbnVsbF93YXJuIjogMC4wMSwKICAgICJtaW5fY292ZXJhZ2VfcmF0aW8iOiAwLjksCiAgICAibWluX3N5bWJvbHNfYWJzIjogMzAwMCwKICAgICJwYXJ0aWFsX3JhdGlvIjogMC4wNQogIH0sCiAgInN1bW1hcnkiOiB7CiAgICAic3RhdHVzIjogImZhaWxlZCIsCiAgICAiZGF5cyI6IDIsCiAgICAicm93cyI6IDIzNzgsCiAgICAic3ltYm9scyI6IDUsCiAgICAiY29tcGxldGVfZGF5cyI6IFsKICAgICAgIjIwMjYtMTAtMTMiLAogICAgICAiMjAyNi0xMC0xNCIKICAgIF0sCiAgICAicGFydGlhbF9kYXlzIjogW10sCiAgICAiZnJhZ21lbnRlZF9kYXlzIjogW10KICB9LAogICJjaGVja3MiOiB7CiAgICAidGltZXN0YW1wX2RvbWFpbiI6IHsKICAgICAgIm1pbiI6ICIwOTozMSIsCiAgICAgICJtYXgiOiAiMTU6MDAiLAogICAgICAiZXhwZWN0ZWQiOiBbCiAgICAgICAgIjA5OjMxIiwKICAgICAgICAiMTU6MDAiCiAgICAgIF0sCiAgICAgICJvdXRfb2ZfcmFuZ2Vfcm93cyI6IDAsCiAgICAgICJvayI6IHRydWUKICAgIH0sCiAgICAiZHVwbGljYXRlcyI6IHsKICAgICAgInJvd3MiOiAwLAogICAgICAib2siOiB0cnVlCiAgICB9LAogICAgIm9obGMiOiB7CiAgICAgICJoaWdoX2JlbG93X290aGVyc19yb3dzIjogMCwKICAgICAgImxvd19hYm92ZV9vdGhlcnNfcm93cyI6IDAsCiAgICAgICJvayI6IHRydWUKICAgIH0sCiAgICAiYW1vdW50X251bGwiOiB7CiAgICAgICJudWxsX3JhdGUiOiAwLjAsCiAgICAgICJ3YXJuX3RocmVzaG9sZCI6IDAuMDEsCiAgICAgICJvayI6IHRydWUKICAgIH0sCiAgICAiY292ZXJhZ2UiOiB7CiAgICAgICJyZWZlcmVuY2Vfc3ltYm9scyI6IDUsCiAgICAgICJyZWZlcmVuY2VfZGVmIjogIuWFqOaVsOaNrumbhuWNleaXpeacgOWkp+iCoeelqOaVsCjlvZPml6XlrZDpm4bln7rlh4YpIiwKICAgICAgImFic19taW5fc3ltYm9scyI6IDMwMDAsCiAgICAgICJtaW5fcmF0aW8iOiAwLjksCiAgICAgICJ3YXJuX2RheXMiOiBbXSwKICAgICAgInVuZGVyX2Fic19taW5fZGF5cyI6IFsKICAgICAgICAiMjAyNi0xMC0xMyIsCiAgICAgICAgIjIwMjYtMTAtMTQiCiAgICAgIF0sCiAgICAgICJvayI6IGZhbHNlCiAgICB9CiAgfSwKICAicGVyX2RheSI6IFsKICAgIHsKICAgICAgImRhdGUiOiAiMjAyNi0xMC0xMyIsCiAgICAgICJyb3dzIjogMTE5MCwKICAgICAgInN5bWJvbHMiOiA1LAogICAgICAiYmFyc19wZXJfc3ltX21lZGlhbiI6IDIzOC4wLAogICAgICAiYmFyc19wZXJfc3ltX21pbiI6IDIzOCwKICAgICAgImJhcnNfcGVyX3N5bV9tYXgiOiAyMzgsCiAgICAgICJleHBlY3RlZF9iYXJzIjogMjM2LAogICAgICAibWlzc2luZ19yYXRlIjogLTAuMDA4NDc1LAogICAgICAiaW5jb21wbGV0ZV9zeW1ib2xfZGF5cyI6IDAsCiAgICAgICJpbmNvbXBsZXRlX3JhdGlvIjogMC4wLAogICAgICAiY2xhc3NpZmljYXRpb24iOiAiY29tcGxldGUiLAogICAgICAiY292ZXJhZ2VfcmF0aW8iOiAxLjAsCiAgICAgICJjb3ZlcmFnZV93YXJuIjogZmFsc2UsCiAgICAgICJiZWxvd19hYnNfbWluIjogdHJ1ZQogICAgfSwKICAgIHsKICAgICAgImRhdGUiOiAiMjAyNi0xMC0xNCIsCiAgICAgICJyb3dzIjogMTE4OCwKICAgICAgInN5bWJvbHMiOiA1LAogICAgICAiYmFyc19wZXJfc3ltX21lZGlhbiI6IDIzOC4wLAogICAgICAiYmFyc19wZXJfc3ltX21pbiI6IDIzNiwKICAgICAgImJhcnNfcGVyX3N5bV9tYXgiOiAyMzgsCiAgICAgICJleHBlY3RlZF9iYXJzIjogMjM2LAogICAgICAibWlzc2luZ19yYXRlIjogLTAuMDA2NzgsCiAgICAgICJpbmNvbXBsZXRlX3N5bWJvbF9kYXlzIjogMCwKICAgICAgImluY29tcGxldGVfcmF0aW8iOiAwLjAsCiAgICAgICJjbGFzc2lmaWNhdGlvbiI6ICJjb21wbGV0ZSIsCiAgICAgICJjb3ZlcmFnZV9yYXRpbyI6IDEuMCwKICAgICAgImNvdmVyYWdlX3dhcm4iOiBmYWxzZSwKICAgICAgImJlbG93X2Fic19taW4iOiB0cnVlCiAgICB9CiAgXQp9
+{
+  "ts": "2026-10-31T13:09:21+08:00",
+  "engine": "minute_data_validate",
+  "source_files": [
+    "/tmp/tiny5.parquet"
+  ],
+  "missing_targets": [],
+  "thresholds": {
+    "min_bars_complete": 200,
+    "expected_bars_full": 236,
+    "session": [
+      "09:31",
+      "15:00"
+    ],
+    "amount_null_warn": 0.01,
+    "min_coverage_ratio": 0.9,
+    "min_symbols_abs": 3000,
+    "partial_ratio": 0.05
+  },
+  "summary": {
+    "status": "failed",
+    "days": 2,
+    "rows": 2378,
+    "symbols": 5,
+    "complete_days": [
+      "2026-10-13",
+      "2026-10-14"
+    ],
+    "partial_days": [],
+    "fragmented_days": []
+  },
+  "checks": {
+    "timestamp_domain": {
+      "min": "09:31",
+      "max": "15:00",
+      "expected": [
+        "09:31",
+        "15:00"
+      ],
+      "out_of_range_rows": 0,
+      "ok": true
+    },
+    "duplicates": {
+      "rows": 0,
+      "ok": true
+    },
+    "ohlc": {
+      "high_below_others_rows": 0,
+      "low_above_others_rows": 0,
+      "ok": true
+    },
+    "amount_null": {
+      "null_rate": 0.0,
+      "warn_threshold": 0.01,
+      "ok": true
+    },
+    "coverage": {
+      "reference_symbols": 5,
+      "reference_def": "全数据集单日最大股票数(当日子集基准)",
+      "abs_min_symbols": 3000,
+      "min_ratio": 0.9,
+      "warn_days": [],
+      "under_abs_min_days": [
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "ok": false
+    }
+  },
+  "per_day": [
+    {
+      "date": "2026-10-13",
+      "rows": 1190,
+      "symbols": 5,
+      "bars_per_sym_median": 238.0,
+      "bars_per_sym_min": 238,
+      "bars_per_sym_max": 238,
+      "expected_bars": 236,
+      "missing_rate": -0.008475,
+      "incomplete_symbol_days": 0,
+      "incomplete_ratio": 0.0,
+      "classification": "complete",
+      "coverage_ratio": 1.0,
+      "coverage_warn": false,
+      "below_abs_min": true
+    },
+    {
+      "date": "2026-10-14",
+      "rows": 1188,
+      "symbols": 5,
+      "bars_per_sym_median": 238.0,
+      "bars_per_sym_min": 236,
+      "bars_per_sym_max": 238,
+      "expected_bars": 236,
+      "missing_rate": -0.00678,
+      "incomplete_symbol_days": 0,
+      "incomplete_ratio": 0.0,
+      "classification": "complete",
+      "coverage_ratio": 1.0,
+      "coverage_warn": false,
+      "below_abs_min": true
+    }
+  ]
+}

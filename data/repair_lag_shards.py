@@ -1,1 +1,253 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJyZXBhaXJfbGFnX3NoYXJkcy5weSDigJQg5L+u5aSNIDYg5Liq5rue5ZCO5YiG54mHICgwMi8wNC8wNi8wNy8wOC8wOSnjgIIKCuiDjOaZrzogaW5jcl91cGRhdGUucHkg5LiK5LiA6L2u5YWo6YeP5aKe6YeP5oyJIuinhOiMg+WIhueJhyIoc2hhcmRfZm9yKeW9kuS9jSwg5oqK6ICB5YiG54mHCigwMi8wNC8wNi8wNy8wOC8wOSnkuK3plJnkvY3lrZjmlL7ogqHnpajnmoTmlrDooYwgKDIwMjYtMTAtMTd+MTAtMjMpIOi/veWKoOWIsOS6huinhOiMg+WIhueJhwooMDAvMDEvNjAvLi4uKSwg6YCg5oiQ6Leo54mH5YiG6KOCOiDogIHniYfljoblj7LmraLkuo4gMTAtMTYsIOaWsOihjOWcqOWIq+eJhywg5LiU5Lik54mH5aSN5p2D5Z+65YeGCuS4jeWQjCAoX2xvYWRlci5weSDkuLvliIbniYfkvJjlhYjlj6rlj5booYzmlbDmnIDlpJrogIUsIOaWsOihjOiiq+S4ouW8gynjgIIKCuacrOiEmuacrDoKICAxKSDmlLbpm4YgNiDmu57lkI7niYflhajpg6jogqHnpajnmoQgbGFzdF9kYXRlL2xhc3RfY2xvc2U7CiAgMikg5LuO5YWo6YOoIDE0IOS4quS4u+WIhueJh+aUtumbhui/meS6m+S7o+eggSBkYXRlID4gMjAyNi0xMC0xNiDnmoTplJnkvY3mlrDooYw7CiAgMykg5aSN5p2D5Z+65YeG5Yik5a6aOiDmlrDooYzpppbml6Ugb3BlbiDkuI7ogIHniYfmnKvml6UgY2xvc2Ug5YGP5beuID4xNSUg6KeG5Li65Z+65YeG6Lez5Y+YLAogICAgIHNjYWxlID0g6ICB54mH5pyrY2xvc2Uv5paw54mH6aaW5pelb3BlbiDlr7kgby9jL2gvbCDnvKnmlL7lvZLkvY0gKHZvbCDkuI3nvKkpOwogIDQpIOW9kuS9jeihjOaPkuWbnuiAgeeJh+ivpeiCoeelqOacgOWQjuS4gOS4qui/nue7reauteacq+WwvjsKICA1KSDku47op4TojIPliIbniYfliKDpmaTplJnkvY3ooYwgKOWOn+aWh+S7tuWFiOWkh+S7vSAuYmFrX21pc3BsYWNlZCk7CiAgNikg5L+d5bqVOiDlvZLkvY3lkI7mnIDmlrDml6XmnJ/ku40gPCAyMDI2LTEwLTIzIOeahCwg55SoIGluY3JfdXBkYXRlLmZldGNoX3N0b2NrIOihpemHh+OAggoiIiIKaW1wb3J0IGpzb24KaW1wb3J0IG9zCmltcG9ydCBzeXMKaW1wb3J0IHRpbWUKZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUsIHRpbWVkZWx0YSwgdGltZXpvbmUKCkhFUkUgPSBvcy5wYXRoLmRpcm5hbWUob3MucGF0aC5hYnNwYXRoKF9fZmlsZV9fKSkKQlVMSyA9IG9zLnBhdGguam9pbihIRVJFLCAiYnVsayIpCnN5cy5wYXRoLmluc2VydCgwLCBIRVJFKQpmcm9tIGluY3JfdXBkYXRlIGltcG9ydCBmZXRjaF9zdG9jaywgZm10ICAjIG5vcWE6IEU0MDIKCkNTVCA9IHRpbWV6b25lKHRpbWVkZWx0YShob3Vycz04KSkKTEFHX1NIQVJEUyA9IFsiMDIiLCAiMDQiLCAiMDYiLCAiMDciLCAiMDgiLCAiMDkiXQpBTExfTUFJTiA9IFtmIntzOjAyZH0iIGZvciBzIGluIHJhbmdlKDEwKV0gKyBbIjIwIiwgIjMwIiwgIjYwIiwgIjY4Il0KQ1VUT0ZGID0gIjIwMjYtMTAtMTYiClJFUE9SVCA9IG9zLnBhdGguam9pbihCVUxLLCAiX3JlcGFpcl9yZXBvcnQuanNvbiIpCgoKZGVmIGxvZyhtKToKICAgIHByaW50KGYiW3tkYXRldGltZS5ub3coQ1NUKTolSDolTTolU31dIHttfSIsIGZsdXNoPVRydWUpCgoKZGVmIHNjYW5fbmV3X3Jvd3MocGF0aCwgd2FudF9jb2Rlcyk6CiAgICAiIiLov5Tlm54ge2NvZGU6IFsobGluZW5vLCBsaW5lKV19OiB3YW50X2NvZGVzIOS4rSBkYXRlID4gQ1VUT0ZGIOeahOihjOOAgiIiIgogICAgcm93cyA9IHt9CiAgICB3aXRoIG9wZW4ocGF0aCwgZW5jb2Rpbmc9InV0Zi04IiwgZXJyb3JzPSJyZXBsYWNlIikgYXMgZjoKICAgICAgICBmb3IgaSwgbGluZSBpbiBlbnVtZXJhdGUoZik6CiAgICAgICAgICAgIGlmIGxpbmUuc3RhcnRzd2l0aCgiIyIpIG9yICJ8IiBub3QgaW4gbGluZToKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIHAgPSBsaW5lLnNwbGl0KCJ8IiwgMikKICAgICAgICAgICAgaWYgcFswXSBpbiB3YW50X2NvZGVzIGFuZCBwWzFdID4gQ1VUT0ZGOgogICAgICAgICAgICAgICAgcm93cy5zZXRkZWZhdWx0KHBbMF0sIFtdKS5hcHBlbmQoKGksIGxpbmUucnN0cmlwKCJcbiIpKSkKICAgIHJldHVybiByb3dzCgoKZGVmIHNjYW5fc2hhcmRfc2VnbWVudHMocGF0aCk6CiAgICAiIiLov5Tlm54ge2NvZGU6IFtbc3RhcnQsZW5kKSwgLi4uXX0g5pSv5oyB5ZCM56CB5aSa5Liq6L+e57ut5q6144CCIiIiCiAgICBzZWdzID0ge30KICAgIGN1ciwgc3RhcnQgPSBOb25lLCAwCiAgICBsYXN0ID0gMAogICAgd2l0aCBvcGVuKHBhdGgsIGVuY29kaW5nPSJ1dGYtOCIsIGVycm9ycz0icmVwbGFjZSIpIGFzIGY6CiAgICAgICAgZm9yIGksIGxpbmUgaW4gZW51bWVyYXRlKGYpOgogICAgICAgICAgICBpZiBsaW5lLnN0YXJ0c3dpdGgoIiMiKSBvciAifCIgbm90IGluIGxpbmU6CiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICBjb2RlID0gbGluZS5zcGxpdCgifCIsIDEpWzBdCiAgICAgICAgICAgIGlmIGNvZGUgIT0gY3VyOgogICAgICAgICAgICAgICAgaWYgY3VyIGlzIG5vdCBOb25lOgogICAgICAgICAgICAgICAgICAgIHNlZ3Muc2V0ZGVmYXVsdChjdXIsIFtdKS5hcHBlbmQoW3N0YXJ0LCBsYXN0XSkKICAgICAgICAgICAgICAgIGN1ciwgc3RhcnQgPSBjb2RlLCBpCiAgICAgICAgICAgIGxhc3QgPSBpICsgMQogICAgaWYgY3VyIGlzIG5vdCBOb25lOgogICAgICAgIHNlZ3Muc2V0ZGVmYXVsdChjdXIsIFtdKS5hcHBlbmQoW3N0YXJ0LCBsYXN0XSkKICAgIHJldHVybiBzZWdzCgoKZGVmIHBhcnNlX3JvdyhsaW5lKToKICAgIHAgPSBsaW5lLnNwbGl0KCJ8IikKICAgIHJldHVybiBwWzBdLCBwWzFdLCBmbG9hdChwWzJdKSwgZmxvYXQocFszXSksIGZsb2F0KHBbNF0pLCBmbG9hdChwWzVdKSwgZmxvYXQocFs2XSkKCgpkZWYgbWFpbigpOgogICAgdDAgPSB0aW1lLnRpbWUoKQogICAgIyAtLS0tIDEpIDYg5rue5ZCO54mHOiDmr4/lj6rogqHnpaggbGFzdF9kYXRlL2xhc3RfY2xvc2UKICAgIGxhZ19pbmZvID0ge30KICAgIGZvciBzIGluIExBR19TSEFSRFM6CiAgICAgICAgcCA9IG9zLnBhdGguam9pbihCVUxLLCBmImRheV9xZnFfe3N9LmNzdiIpCiAgICAgICAgbGFzdGxpbmUgPSB7fQogICAgICAgIHdpdGggb3BlbihwLCBlbmNvZGluZz0idXRmLTgiLCBlcnJvcnM9InJlcGxhY2UiKSBhcyBmOgogICAgICAgICAgICBmb3IgbGluZSBpbiBmOgogICAgICAgICAgICAgICAgaWYgbGluZS5zdGFydHN3aXRoKCIjIikgb3IgInwiIG5vdCBpbiBsaW5lOgogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICBjb2RlID0gbGluZS5zcGxpdCgifCIsIDEpWzBdCiAgICAgICAgICAgICAgICBsYXN0bGluZVtjb2RlXSA9IGxpbmUKICAgICAgICBuID0gMAogICAgICAgIGZvciBjb2RlLCBsbiBpbiBsYXN0bGluZS5pdGVtcygpOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBfLCBkLCBfLCBjLCAqXyA9IHBhcnNlX3JvdyhsbikKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIGxhZ19pbmZvW2NvZGVdID0geyJzaGFyZCI6IHMsICJsYXN0X2RhdGUiOiBkLCAibGFzdF9jbG9zZSI6IGN9CiAgICAgICAgICAgIG4gKz0gMQogICAgICAgIGxvZyhmIua7nuWQjueJhyB7c306IHtufSDlj6rogqEiKQoKICAgIGNvZGVzID0gc2V0KGxhZ19pbmZvKQogICAgbG9nKGYiNiDniYflkIjorqEge2xlbihjb2Rlcyl9IOWPquiCoSIpCgogICAgIyAtLS0tIDIpIOaJq+WFqOmDqOS4u+WIhueJh+aJvumUmeS9jeaWsOihjCAoZGF0ZSA+IENVVE9GRikKICAgIG1pc3BsYWNlZCA9IHt9ICAjIGNvZGUgLT4ge3NoYXJkOiBbKGxpbmVubywgbGluZSldfQogICAgZm9yIHMgaW4gQUxMX01BSU46CiAgICAgICAgcCA9IG9zLnBhdGguam9pbihCVUxLLCBmImRheV9xZnFfe3N9LmNzdiIpCiAgICAgICAgcm93cyA9IHNjYW5fbmV3X3Jvd3MocCwgY29kZXMpCiAgICAgICAgZm9yIGNvZGUsIGxzdCBpbiByb3dzLml0ZW1zKCk6CiAgICAgICAgICAgIGlmIHMgPT0gbGFnX2luZm9bY29kZV1bInNoYXJkIl06CiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICBtaXNwbGFjZWQuc2V0ZGVmYXVsdChjb2RlLCB7fSlbc10gPSBsc3QKICAgICAgICBsb2coZiLmiavniYcge3N9IOWujCwg5pyJ6ZSZ5L2N5paw6KGM55qE6IKh57Sv6K6hIHtsZW4obWlzcGxhY2VkKX0iKQoKICAgICMgLS0tLSAzKSDlvZLkvY06IOWfuuWHhue8qeaUviArIOWIhue7hAogICAgaW5zZXJ0X2J5X3NoYXJkID0ge3M6IHt9IGZvciBzIGluIExBR19TSEFSRFN9CiAgICBkZWxldGVfYnlfc2hhcmQgPSB7fQogICAgc2NhbGVkX2NudCA9IHBsYWluX2NudCA9IDAKICAgIGZvciBjb2RlLCBieV9zaGFyZCBpbiBtaXNwbGFjZWQuaXRlbXMoKToKICAgICAgICBpbmZvID0gbGFnX2luZm9bY29kZV0KICAgICAgICByb3dzID0ge30KICAgICAgICBmb3IgcywgbHN0IGluIGJ5X3NoYXJkLml0ZW1zKCk6CiAgICAgICAgICAgIGZvciBsaW5lbm8sIGxpbmUgaW4gbHN0OgogICAgICAgICAgICAgICAgZCA9IHBhcnNlX3JvdyhsaW5lKVsxXQogICAgICAgICAgICAgICAgcm93cy5zZXRkZWZhdWx0KGQsIChzLCBsaW5lbm8sIGxpbmUpKQogICAgICAgIGRhdGVzID0gc29ydGVkKHJvd3MpCiAgICAgICAgaWYgbm90IGRhdGVzOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIGZpcnN0ID0gcGFyc2Vfcm93KHJvd3NbZGF0ZXNbMF1dWzJdKQogICAgICAgIHJhdGlvID0gaW5mb1sibGFzdF9jbG9zZSJdIC8gZmlyc3RbMl0gaWYgZmlyc3RbMl0gZWxzZSAxLjAKICAgICAgICBzY2FsZSA9IDEuMAogICAgICAgIGlmIGFicyhyYXRpbyAtIDEuMCkgPiAwLjE1OgogICAgICAgICAgICBzY2FsZSA9IHJhdGlvCiAgICAgICAgICAgIHNjYWxlZF9jbnQgKz0gMQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHBsYWluX2NudCArPSAxCiAgICAgICAgbmV3bGluZXMgPSBbXQogICAgICAgIGZvciBkIGluIGRhdGVzOgogICAgICAgICAgICBzLCBsaW5lbm8sIGxpbmUgPSByb3dzW2RdCiAgICAgICAgICAgIGRlbGV0ZV9ieV9zaGFyZC5zZXRkZWZhdWx0KHMsIHNldCgpKS5hZGQobGluZW5vKQogICAgICAgICAgICBpZiBzY2FsZSAhPSAxLjA6CiAgICAgICAgICAgICAgICBjLCBkZCwgbywgY2wsIGgsIGwsIHYgPSBwYXJzZV9yb3cobGluZSkKICAgICAgICAgICAgICAgIGxpbmUgPSAifCIuam9pbihbYywgZGQsIGZtdChvICogc2NhbGUpLCBmbXQoY2wgKiBzY2FsZSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZtdChoICogc2NhbGUpLCBmbXQobCAqIHNjYWxlKSwgZm10KHYpXSkKICAgICAgICAgICAgbmV3bGluZXMuYXBwZW5kKGxpbmUpCiAgICAgICAgaW5zZXJ0X2J5X3NoYXJkW2luZm9bInNoYXJkIl1dW2NvZGVdID0gbmV3bGluZXMKICAgIGxvZyhmIuW9kuS9jTog5Z+65YeG5LiA6Ie0IHtwbGFpbl9jbnR9IOWPqiwg57yp5pS+IHtzY2FsZWRfY250fSDlj6oiKQoKICAgICMgLS0tLSA0KSDkv53lupXooaXph4cKICAgIG5lZWRfZmV0Y2ggPSBbXQogICAgZm9yIGNvZGUsIGluZm8gaW4gbGFnX2luZm8uaXRlbXMoKToKICAgICAgICBnb3QgPSBpbnNlcnRfYnlfc2hhcmRbaW5mb1sic2hhcmQiXV0uZ2V0KGNvZGUsIFtdKQogICAgICAgIG5ld2VzdCA9IG1heChbcGFyc2Vfcm93KGwpWzFdIGZvciBsIGluIGdvdF0sIGRlZmF1bHQ9aW5mb1sibGFzdF9kYXRlIl0pCiAgICAgICAgaWYgbmV3ZXN0IDwgIjIwMjYtMTAtMjMiOgogICAgICAgICAgICBuZWVkX2ZldGNoLmFwcGVuZChjb2RlKQogICAgbG9nKGYi6ZyA6KGl6YeHIHtsZW4obmVlZF9mZXRjaCl9IOWPqiIpCiAgICBmZXRjaGVkX29rID0gZmV0Y2hlZF9mYWlsID0gMAogICAgZmFpbF9saXN0ID0gW10KICAgIGZvciBpLCBjb2RlIGluIGVudW1lcmF0ZShuZWVkX2ZldGNoKToKICAgICAgICBpbmZvID0gbGFnX2luZm9bY29kZV0KICAgICAgICBnb3QgPSBpbnNlcnRfYnlfc2hhcmRbaW5mb1sic2hhcmQiXV0uc2V0ZGVmYXVsdChjb2RlLCBbXSkKICAgICAgICBoYXZlID0ge3BhcnNlX3JvdyhsKVsxXSBmb3IgbCBpbiBnb3R9IHwge2luZm9bImxhc3RfZGF0ZSJdfQogICAgICAgIGxhc3RfZGF0ZSA9IG1heChoYXZlKQogICAgICAgIHJvd3MsIGVyciA9IGZldGNoX3N0b2NrKGNvZGUsIG49MzApCiAgICAgICAgaWYgcm93cyBpcyBOb25lOgogICAgICAgICAgICBmZXRjaGVkX2ZhaWwgKz0gMQogICAgICAgICAgICBmYWlsX2xpc3QuYXBwZW5kKChjb2RlLCBlcnIpKQogICAgICAgICAgICBjb250aW51ZQogICAgICAgIG5ldyA9IFtyIGZvciByIGluIHJvd3MgaWYgclswXSA+IGxhc3RfZGF0ZV0KICAgICAgICBpZiBub3QgbmV3OgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIGlmIGdvdDoKICAgICAgICAgICAgYmFzZV9vcGVuID0gcGFyc2Vfcm93KGdvdFswXSlbMl0KICAgICAgICBlbHNlOgogICAgICAgICAgICBiYXNlX29wZW4gPSBmbG9hdChuZXdbMF1bMV0pCiAgICAgICAgcmF0aW8gPSBpbmZvWyJsYXN0X2Nsb3NlIl0gLyBiYXNlX29wZW4gaWYgYmFzZV9vcGVuIGVsc2UgMS4wCiAgICAgICAgc2NhbGUgPSByYXRpbyBpZiBhYnMocmF0aW8gLSAxLjApID4gMC4xNSBlbHNlIDEuMAogICAgICAgIGZvciByIGluIG5ldzoKICAgICAgICAgICAgbywgYywgaCwgbCA9IGZsb2F0KHJbMV0pLCBmbG9hdChyWzJdKSwgZmxvYXQoclszXSksIGZsb2F0KHJbNF0pCiAgICAgICAgICAgIGdvdC5hcHBlbmQoInwiLmpvaW4oW2NvZGUsIHJbMF0sIGZtdChvICogc2NhbGUpLCBmbXQoYyAqIHNjYWxlKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm10KGggKiBzY2FsZSksIGZtdChsICogc2NhbGUpLCBmbXQoZmxvYXQocls1XSkpXSkpCiAgICAgICAgZmV0Y2hlZF9vayArPSAxCiAgICAgICAgaWYgKGkgKyAxKSAlIDEwMCA9PSAwOgogICAgICAgICAgICBsb2coZiLooaXph4cge2krMX0ve2xlbihuZWVkX2ZldGNoKX0gb2s9e2ZldGNoZWRfb2t9IGZhaWw9e2ZldGNoZWRfZmFpbH0iKQogICAgICAgIHRpbWUuc2xlZXAoMC4xMikKICAgIGxvZyhmIuihpemHh+WujCBvaz17ZmV0Y2hlZF9va30gZmFpbD17ZmV0Y2hlZF9mYWlsfSIpCgogICAgIyAtLS0tIDUpIOWGmeWbnua7nuWQjueJhyAo5q615YaF5o+S5YWlKQogICAgc3RhdHMgPSB7fQogICAgZm9yIHMgaW4gTEFHX1NIQVJEUzoKICAgICAgICBpbnMgPSBpbnNlcnRfYnlfc2hhcmRbc10KICAgICAgICBpZiBub3QgaW5zOgogICAgICAgICAgICBzdGF0c1tzXSA9IDAKICAgICAgICAgICAgY29udGludWUKICAgICAgICBwID0gb3MucGF0aC5qb2luKEJVTEssIGYiZGF5X3FmcV97c30uY3N2IikKICAgICAgICBzZWdzID0gc2Nhbl9zaGFyZF9zZWdtZW50cyhwKQogICAgICAgIHdpdGggb3BlbihwLCBlbmNvZGluZz0idXRmLTgiLCBlcnJvcnM9InJlcGxhY2UiKSBhcyBmOgogICAgICAgICAgICBsaW5lcyA9IGYucmVhZGxpbmVzKCkKICAgICAgICBvZmZzZXRzID0gW10KICAgICAgICBmb3IgY29kZSwgbmV3bGluZXMgaW4gaW5zLml0ZW1zKCk6CiAgICAgICAgICAgIHNlZyA9IHNlZ3NbY29kZV1bLTFdCiAgICAgICAgICAgIG9mZnNldHMuYXBwZW5kKChzZWdbMV0sIG5ld2xpbmVzKSkKICAgICAgICBvZmZzZXRzLnNvcnQoa2V5PWxhbWJkYSB4OiB4WzBdKQogICAgICAgIG91dCwgcHJldiwgYWRkZWQgPSBbXSwgMCwgMAogICAgICAgIGZvciBwb3MsIG5ld2xpbmVzIGluIG9mZnNldHM6CiAgICAgICAgICAgIG91dC5leHRlbmQobGluZXNbcHJldjpwb3NdKQogICAgICAgICAgICBvdXQuZXh0ZW5kKGwgKyAiXG4iIGZvciBsIGluIG5ld2xpbmVzKQogICAgICAgICAgICBhZGRlZCArPSBsZW4obmV3bGluZXMpCiAgICAgICAgICAgIHByZXYgPSBwb3MKICAgICAgICBvdXQuZXh0ZW5kKGxpbmVzW3ByZXY6XSkKICAgICAgICB0bXAgPSBwICsgIi50bXBfcmVwYWlyIgogICAgICAgIHdpdGggb3Blbih0bXAsICJ3IiwgZW5jb2Rpbmc9InV0Zi04IikgYXMgZjoKICAgICAgICAgICAgZi53cml0ZWxpbmVzKG91dCkKICAgICAgICAgICAgZi5mbHVzaCgpOyBvcy5mc3luYyhmLmZpbGVubygpKQogICAgICAgIG9zLnJlcGxhY2UodG1wLCBwKQogICAgICAgIHN0YXRzW3NdID0gYWRkZWQKICAgICAgICBsb2coZiLmu57lkI7niYcge3N9OiDmj5LlhaUge2FkZGVkfSDooYwgKHtsZW4oaW5zKX0g5Y+q6IKhKSIpCgogICAgIyAtLS0tIDYpIOWIoOmZpOinhOiMg+WIhueJh+S4reeahOmUmeS9jeihjCAo5YWI5aSH5Lu9KQogICAgZm9yIHMsIGxpbmVub3MgaW4gZGVsZXRlX2J5X3NoYXJkLml0ZW1zKCk6CiAgICAgICAgcCA9IG9zLnBhdGguam9pbihCVUxLLCBmImRheV9xZnFfe3N9LmNzdiIpCiAgICAgICAgYmFrID0gcCArICIuYmFrX21pc3BsYWNlZCIKICAgICAgICBpZiBub3Qgb3MucGF0aC5leGlzdHMoYmFrKToKICAgICAgICAgICAgb3MucmVuYW1lKHAsIGJhaykKICAgICAgICAgICAgc3JjID0gYmFrCiAgICAgICAgZWxzZToKICAgICAgICAgICAgc3JjID0gcAogICAgICAgIHdpdGggb3BlbihzcmMsIGVuY29kaW5nPSJ1dGYtOCIsIGVycm9ycz0icmVwbGFjZSIpIGFzIGY6CiAgICAgICAgICAgIGxpbmVzID0gZi5yZWFkbGluZXMoKQogICAgICAgIG91dCA9IFtsIGZvciBpLCBsIGluIGVudW1lcmF0ZShsaW5lcykgaWYgaSBub3QgaW4gbGluZW5vc10KICAgICAgICB0bXAgPSBwICsgIi50bXBfcmVwYWlyIgogICAgICAgIHdpdGggb3Blbih0bXAsICJ3IiwgZW5jb2Rpbmc9InV0Zi04IikgYXMgZjoKICAgICAgICAgICAgZi53cml0ZWxpbmVzKG91dCkKICAgICAgICAgICAgZi5mbHVzaCgpOyBvcy5mc3luYyhmLmZpbGVubygpKQogICAgICAgIG9zLnJlcGxhY2UodG1wLCBwKQogICAgICAgIGxvZyhmIuWIhueJhyB7c306IOWIoOmZpOmUmeS9jeihjCB7bGVuKGxpbmVub3MpfSDooYwgKOWkh+S7vSB7b3MucGF0aC5iYXNlbmFtZShiYWspfSkiKQoKICAgIHJlcG9ydCA9IHsKICAgICAgICAidHMiOiBkYXRldGltZS5ub3coQ1NUKS5pc29mb3JtYXQodGltZXNwZWM9InNlY29uZHMiKSwKICAgICAgICAibGFnX3NoYXJkcyI6IExBR19TSEFSRFMsICJjb2RlcyI6IGxlbihjb2RlcyksCiAgICAgICAgIm1pc3BsYWNlZF9tb3ZlZCI6IHBsYWluX2NudCArIHNjYWxlZF9jbnQsCiAgICAgICAgInNjYWxlZCI6IHNjYWxlZF9jbnQsICJmZXRjaGVkX29rIjogZmV0Y2hlZF9vaywKICAgICAgICAiZmV0Y2hlZF9mYWlsIjogZmV0Y2hlZF9mYWlsLCAiZmFpbF9saXN0IjogZmFpbF9saXN0WzoxMDBdLAogICAgICAgICJyb3dzX2luc2VydGVkX3Blcl9zaGFyZCI6IHN0YXRzLAogICAgICAgICJlbGFwc2VkX3MiOiByb3VuZCh0aW1lLnRpbWUoKSAtIHQwLCAxKSwKICAgIH0KICAgIHdpdGggb3BlbihSRVBPUlQsICJ3IikgYXMgZjoKICAgICAgICBqc29uLmR1bXAocmVwb3J0LCBmLCBlbnN1cmVfYXNjaWk9RmFsc2UsIGluZGVudD0yKQogICAgbG9nKGYi5a6M5oiQLCDmiqXlkYogLT4ge1JFUE9SVH0iKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkK
+#!/usr/bin/env python3
+"""repair_lag_shards.py — 修复 6 个滞后分片 (02/04/06/07/08/09)。
+
+背景: incr_update.py 上一轮全量增量按"规范分片"(shard_for)归位, 把老分片
+(02/04/06/07/08/09)中错位存放股票的新行 (2026-10-17~10-23) 追加到了规范分片
+(00/01/60/...), 造成跨片分裂: 老片历史止于 10-16, 新行在别片, 且两片复权基准
+不同 (_loader.py 主分片优先只取行数最多者, 新行被丢弃)。
+
+本脚本:
+  1) 收集 6 滞后片全部股票的 last_date/last_close;
+  2) 从全部 14 个主分片收集这些代码 date > 2026-10-16 的错位新行;
+  3) 复权基准判定: 新行首日 open 与老片末日 close 偏差 >15% 视为基准跳变,
+     scale = 老片末close/新片首日open 对 o/c/h/l 缩放归位 (vol 不缩);
+  4) 归位行插回老片该股票最后一个连续段末尾;
+  5) 从规范分片删除错位行 (原文件先备份 .bak_misplaced);
+  6) 保底: 归位后最新日期仍 < 2026-10-23 的, 用 incr_update.fetch_stock 补采。
+"""
+import json
+import os
+import sys
+import time
+from datetime import datetime, timedelta, timezone
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+BULK = os.path.join(HERE, "bulk")
+sys.path.insert(0, HERE)
+from incr_update import fetch_stock, fmt  # noqa: E402
+
+CST = timezone(timedelta(hours=8))
+LAG_SHARDS = ["02", "04", "06", "07", "08", "09"]
+ALL_MAIN = [f"{s:02d}" for s in range(10)] + ["20", "30", "60", "68"]
+CUTOFF = "2026-10-16"
+REPORT = os.path.join(BULK, "_repair_report.json")
+
+
+def log(m):
+    print(f"[{datetime.now(CST):%H:%M:%S}] {m}", flush=True)
+
+
+def scan_new_rows(path, want_codes):
+    """返回 {code: [(lineno, line)]}: want_codes 中 date > CUTOFF 的行。"""
+    rows = {}
+    with open(path, encoding="utf-8", errors="replace") as f:
+        for i, line in enumerate(f):
+            if line.startswith("#") or "|" not in line:
+                continue
+            p = line.split("|", 2)
+            if p[0] in want_codes and p[1] > CUTOFF:
+                rows.setdefault(p[0], []).append((i, line.rstrip("\n")))
+    return rows
+
+
+def scan_shard_segments(path):
+    """返回 {code: [[start,end), ...]} 支持同码多个连续段。"""
+    segs = {}
+    cur, start = None, 0
+    last = 0
+    with open(path, encoding="utf-8", errors="replace") as f:
+        for i, line in enumerate(f):
+            if line.startswith("#") or "|" not in line:
+                continue
+            code = line.split("|", 1)[0]
+            if code != cur:
+                if cur is not None:
+                    segs.setdefault(cur, []).append([start, last])
+                cur, start = code, i
+            last = i + 1
+    if cur is not None:
+        segs.setdefault(cur, []).append([start, last])
+    return segs
+
+
+def parse_row(line):
+    p = line.split("|")
+    return p[0], p[1], float(p[2]), float(p[3]), float(p[4]), float(p[5]), float(p[6])
+
+
+def main():
+    t0 = time.time()
+    # ---- 1) 6 滞后片: 每只股票 last_date/last_close
+    lag_info = {}
+    for s in LAG_SHARDS:
+        p = os.path.join(BULK, f"day_qfq_{s}.csv")
+        lastline = {}
+        with open(p, encoding="utf-8", errors="replace") as f:
+            for line in f:
+                if line.startswith("#") or "|" not in line:
+                    continue
+                code = line.split("|", 1)[0]
+                lastline[code] = line
+        n = 0
+        for code, ln in lastline.items():
+            try:
+                _, d, _, c, *_ = parse_row(ln)
+            except Exception:
+                continue
+            lag_info[code] = {"shard": s, "last_date": d, "last_close": c}
+            n += 1
+        log(f"滞后片 {s}: {n} 只股")
+
+    codes = set(lag_info)
+    log(f"6 片合计 {len(codes)} 只股")
+
+    # ---- 2) 扫全部主分片找错位新行 (date > CUTOFF)
+    misplaced = {}  # code -> {shard: [(lineno, line)]}
+    for s in ALL_MAIN:
+        p = os.path.join(BULK, f"day_qfq_{s}.csv")
+        rows = scan_new_rows(p, codes)
+        for code, lst in rows.items():
+            if s == lag_info[code]["shard"]:
+                continue
+            misplaced.setdefault(code, {})[s] = lst
+        log(f"扫片 {s} 完, 有错位新行的股累计 {len(misplaced)}")
+
+    # ---- 3) 归位: 基准缩放 + 分组
+    insert_by_shard = {s: {} for s in LAG_SHARDS}
+    delete_by_shard = {}
+    scaled_cnt = plain_cnt = 0
+    for code, by_shard in misplaced.items():
+        info = lag_info[code]
+        rows = {}
+        for s, lst in by_shard.items():
+            for lineno, line in lst:
+                d = parse_row(line)[1]
+                rows.setdefault(d, (s, lineno, line))
+        dates = sorted(rows)
+        if not dates:
+            continue
+        first = parse_row(rows[dates[0]][2])
+        ratio = info["last_close"] / first[2] if first[2] else 1.0
+        scale = 1.0
+        if abs(ratio - 1.0) > 0.15:
+            scale = ratio
+            scaled_cnt += 1
+        else:
+            plain_cnt += 1
+        newlines = []
+        for d in dates:
+            s, lineno, line = rows[d]
+            delete_by_shard.setdefault(s, set()).add(lineno)
+            if scale != 1.0:
+                c, dd, o, cl, h, l, v = parse_row(line)
+                line = "|".join([c, dd, fmt(o * scale), fmt(cl * scale),
+                                 fmt(h * scale), fmt(l * scale), fmt(v)])
+            newlines.append(line)
+        insert_by_shard[info["shard"]][code] = newlines
+    log(f"归位: 基准一致 {plain_cnt} 只, 缩放 {scaled_cnt} 只")
+
+    # ---- 4) 保底补采
+    need_fetch = []
+    for code, info in lag_info.items():
+        got = insert_by_shard[info["shard"]].get(code, [])
+        newest = max([parse_row(l)[1] for l in got], default=info["last_date"])
+        if newest < "2026-10-23":
+            need_fetch.append(code)
+    log(f"需补采 {len(need_fetch)} 只")
+    fetched_ok = fetched_fail = 0
+    fail_list = []
+    for i, code in enumerate(need_fetch):
+        info = lag_info[code]
+        got = insert_by_shard[info["shard"]].setdefault(code, [])
+        have = {parse_row(l)[1] for l in got} | {info["last_date"]}
+        last_date = max(have)
+        rows, err = fetch_stock(code, n=30)
+        if rows is None:
+            fetched_fail += 1
+            fail_list.append((code, err))
+            continue
+        new = [r for r in rows if r[0] > last_date]
+        if not new:
+            continue
+        if got:
+            base_open = parse_row(got[0])[2]
+        else:
+            base_open = float(new[0][1])
+        ratio = info["last_close"] / base_open if base_open else 1.0
+        scale = ratio if abs(ratio - 1.0) > 0.15 else 1.0
+        for r in new:
+            o, c, h, l = float(r[1]), float(r[2]), float(r[3]), float(r[4])
+            got.append("|".join([code, r[0], fmt(o * scale), fmt(c * scale),
+                                 fmt(h * scale), fmt(l * scale), fmt(float(r[5]))]))
+        fetched_ok += 1
+        if (i + 1) % 100 == 0:
+            log(f"补采 {i+1}/{len(need_fetch)} ok={fetched_ok} fail={fetched_fail}")
+        time.sleep(0.12)
+    log(f"补采完 ok={fetched_ok} fail={fetched_fail}")
+
+    # ---- 5) 写回滞后片 (段内插入)
+    stats = {}
+    for s in LAG_SHARDS:
+        ins = insert_by_shard[s]
+        if not ins:
+            stats[s] = 0
+            continue
+        p = os.path.join(BULK, f"day_qfq_{s}.csv")
+        segs = scan_shard_segments(p)
+        with open(p, encoding="utf-8", errors="replace") as f:
+            lines = f.readlines()
+        offsets = []
+        for code, newlines in ins.items():
+            seg = segs[code][-1]
+            offsets.append((seg[1], newlines))
+        offsets.sort(key=lambda x: x[0])
+        out, prev, added = [], 0, 0
+        for pos, newlines in offsets:
+            out.extend(lines[prev:pos])
+            out.extend(l + "\n" for l in newlines)
+            added += len(newlines)
+            prev = pos
+        out.extend(lines[prev:])
+        tmp = p + ".tmp_repair"
+        with open(tmp, "w", encoding="utf-8") as f:
+            f.writelines(out)
+            f.flush(); os.fsync(f.fileno())
+        os.replace(tmp, p)
+        stats[s] = added
+        log(f"滞后片 {s}: 插入 {added} 行 ({len(ins)} 只股)")
+
+    # ---- 6) 删除规范分片中的错位行 (先备份)
+    for s, linenos in delete_by_shard.items():
+        p = os.path.join(BULK, f"day_qfq_{s}.csv")
+        bak = p + ".bak_misplaced"
+        if not os.path.exists(bak):
+            os.rename(p, bak)
+            src = bak
+        else:
+            src = p
+        with open(src, encoding="utf-8", errors="replace") as f:
+            lines = f.readlines()
+        out = [l for i, l in enumerate(lines) if i not in linenos]
+        tmp = p + ".tmp_repair"
+        with open(tmp, "w", encoding="utf-8") as f:
+            f.writelines(out)
+            f.flush(); os.fsync(f.fileno())
+        os.replace(tmp, p)
+        log(f"分片 {s}: 删除错位行 {len(linenos)} 行 (备份 {os.path.basename(bak)})")
+
+    report = {
+        "ts": datetime.now(CST).isoformat(timespec="seconds"),
+        "lag_shards": LAG_SHARDS, "codes": len(codes),
+        "misplaced_moved": plain_cnt + scaled_cnt,
+        "scaled": scaled_cnt, "fetched_ok": fetched_ok,
+        "fetched_fail": fetched_fail, "fail_list": fail_list[:100],
+        "rows_inserted_per_shard": stats,
+        "elapsed_s": round(time.time() - t0, 1),
+    }
+    with open(REPORT, "w") as f:
+        json.dump(report, f, ensure_ascii=False, indent=2)
+    log(f"完成, 报告 -> {REPORT}")
+
+
+if __name__ == "__main__":
+    main()
