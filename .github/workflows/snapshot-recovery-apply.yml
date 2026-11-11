@@ -1,0 +1,74 @@
+name: snapshot-recovery-apply
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: snapshot-recovery-apply
+  cancel-in-progress: false
+
+jobs:
+  recover:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+      - name: Download frozen successful audit plan
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api repos/qwerzxcva/t1/actions/artifacts/13857253049/zip > "$RUNNER_TEMP/recovery-plan.zip"
+          python3 - <<'PY'
+          import hashlib, json, os, zipfile
+          from pathlib import Path
+          temp = Path(os.environ['RUNNER_TEMP'])
+          with zipfile.ZipFile(temp / 'recovery-plan.zip') as archive:
+              raw = archive.read('recovery-plan.json')
+          expected = '08b5678815a7d4d1f002b68325c799f4603ac8497e0e46944244a5f7dc643a5b'
+          if hashlib.sha256(raw).hexdigest() != expected:
+              raise SystemExit('audit plan fingerprint changed')
+          plan = json.loads(raw)
+          if len(plan['items']) != 810 or plan['unknown']:
+              raise SystemExit('unexpected recovery scope')
+          (temp / 'recovery-plan.json').write_bytes(raw)
+          PY
+      - name: Validate every source then recover one encoding layer
+        run: |
+          python3 tools/restore_encoded_snapshot.py --root "$GITHUB_WORKSPACE/data" --apply "$RUNNER_TEMP/recovery-plan.json"
+      - name: Verify exact recovered bytes and stage only reviewed paths
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, os, subprocess
+          from pathlib import Path
+          plan = json.loads((Path(os.environ['RUNNER_TEMP']) / 'recovery-plan.json').read_text())
+          root = Path(os.environ['GITHUB_WORKSPACE']) / 'data'
+          paths = []
+          for item in plan['items']:
+              path = root / item['relative_path']
+              raw = path.read_bytes()
+              if hashlib.sha256(raw).hexdigest() != item['decoded_sha256']:
+                  raise SystemExit('recovered fingerprint mismatch: ' + item['relative_path'])
+              paths.append('data/' + item['relative_path'])
+          subprocess.run(['git', 'add', '--pathspec-from-file=-', '--pathspec-file-nul'],
+                         input=('\0'.join(paths) + '\0').encode(), check=True)
+          staged = subprocess.check_output(['git', 'diff', '--cached', '--name-only', '-z']).decode().split('\0')
+          if set(filter(None, staged)) != set(paths):
+              raise SystemExit('staged paths differ from reviewed recovery plan')
+          deleted = subprocess.check_output(['git', 'diff', '--cached', '--diff-filter=D', '--name-only'])
+          if deleted:
+              raise SystemExit('recovery must not delete files')
+          print('verified restored files:', len(paths))
+          PY
+      - name: Publish recovered snapshot without rewriting history
+        run: |
+          git config user.name stocks-recovery-bot
+          git config user.email actions@users.noreply.github.com
+          git commit -m "fix(data): restore 810 snapshot files from verified encoding audit"
+          git push origin HEAD:main
